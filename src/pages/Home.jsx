@@ -10,19 +10,21 @@ import CardHome from "../components/CardHome";
 
 const Home = () => {
   return (
-    <styles.Container>
+    <styles.Container >
       <div className="container__image">
         <img src={logo} alt="logo reactgame" className="logo" />
       </div>
 
       <styles.Wrapper>
         <CardHome
+          link="#"
           urlImage={imagem_aprender}
           altImage="imagem aprender react"
           title="Aprender React"
         />
 
         <CardHome
+          link="/jogo"
           urlImage={imagem_jogo}
           altImage="imagem jogar reactgame"
           title="Jogar Reactgame"
